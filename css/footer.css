@@ -1,0 +1,49 @@
+footer {
+    background-color: var(--footer-color);
+
+    border-top: 2px solid var(--color-hover);
+}
+
+.footer_container {
+    max-width: 80%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    color: var(--background-color);
+
+    padding: 10px;
+}
+
+.copyright {
+    color: var(--background-color);
+
+    font-size: 15px;
+    line-height: 18px;
+
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.year {
+    color: var(--color-hover);
+
+    font-size: 15px;
+    line-height: 18px;
+
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.social_networks {
+    text-align: right;
+}
+
+.social_networks a {
+    margin-left: 30px;
+}
+
+.social_networks a img {
+    width: 18px;
+}

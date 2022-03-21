@@ -1,0 +1,81 @@
+.index_content {
+    text-align: center;
+}
+
+.index_content_img img {
+    width: 250px;
+
+    margin: 60px auto 30px;
+
+    border: 5px solid var(--green-dark);
+    border-radius: 50%;
+}
+
+.index_p_title {
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: bold;
+
+    color: var(--green-dark);
+
+    margin-bottom: 20px;
+}
+
+.index_p_content {
+    margin: 0 auto;
+
+    max-width: 650px;
+
+    color: var(--green-dark);
+    font-size: 19px;
+    line-height: 21px;
+    letter-spacing: 1px;
+
+    font-weight: 400;
+    font-style: italic;
+
+    margin-bottom: 20px;
+
+}
+
+.index_span_section {
+    color: var(--color-hover);
+
+    font-weight: bold;
+}
+
+.index_p_fun {
+    font-family: 'Poppins', sans-serif;
+
+    display: inline-block;
+    border-bottom: 3px dashed var(--color-hover);
+
+    color: var(--green-dark);
+    font-weight: 400;
+
+    margin-bottom: 20px;
+
+}
+
+/* === Button === */
+
+.index_content button {
+    color: var(--background-color);
+    background-color: var(--green-dark);
+
+    margin-bottom: 50px;
+    padding: 15px 60px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2px;
+
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgba(0, 43, 51, 0.9);
+}
